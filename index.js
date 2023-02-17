@@ -1,6 +1,6 @@
 const hourEL= document.getElementById("hour");
 const  minutesEL= document.getElementById("minutes");
-const secondsEL= Document.getElementById("seconds");
+const secondsEL= document.getElementById("seconds");
 const ampmEL= document.getElementById("ampm");
 
 function updateClock(){
@@ -28,4 +28,5 @@ setTimeout(()=>{
     updateClock()
 },1000)
 }
-updateClock();
+
+updateClock()
